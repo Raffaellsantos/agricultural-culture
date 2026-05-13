@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milho em Foco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="./js/script.js" defer></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="90" tabindex="0">
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Menu principal">
+      <div class="container">
+        <a class="navbar-brand brand" href="#home" aria-label="Ir para o início">
+          <span class="brand-mark">M</span>
+          <span>Milho em Foco</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="navbar-nav gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#plantio">Plantio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#calendario">Calendário</a></li>
+            <li class="nav-item"><a class="nav-link" href="#irrigacao">Irrigação</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tecnologia">Tecnologia</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-panel">
+        <div class="hero-content">
+          <p class="eyebrow">Agricultura inteligente</p>
+          <h1>O Futuro do Milho</h1>
+          <p>
+            Um guia visual sobre plantio, calendário agrícola, irrigação e tecnologia
+            para entender melhor cada etapa da lavoura.
+          </p>
+          <a class="btn primary-button" href="#plantio">
+            <span>Explorar conteúdo</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+        <span class="hero-line" aria-hidden="true"></span>
+      </div>
+      <div class="hero-media" aria-hidden="true">
+        <span class="frame-corner frame-corner-top"></span>
+        <span class="frame-corner frame-corner-bottom"></span>
+      </div>
+    </section>
+
+    <section class="section intro-section" aria-labelledby="intro-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="intro-title">O que é o milho?</h2>
+        </div>
+        <p class="lead mb-5">
+          Originário do México, o milho é um dos alimentos mais versáteis do planeta.
+          Muito além da espiga no prato, ele é um pilar da economia: serve de base para
+          a alimentação humana, é essencial na criação de animais e funciona como
+          matéria-prima estratégica para a indústria e energia. Nutritivo e multifuncional,
+          é o cereal que conecta o campo ao nosso dia a dia.
+        </p>
+
+        <div class="section-heading">
+          <h2 id="study-title">Por que estudar o milho?</h2>
+        </div>
+        <p class="lead">
+          O milho é uma das culturas mais importantes do Brasil, presente na alimentação,
+          na produção animal e em diversos produtos industriais. Entender seu ciclo ajuda
+          a planejar melhor o uso do solo, da água e do calendário agrícola.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards-section" aria-labelledby="cards-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="cards-title">Pontos essenciais</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-4">
+            <article class="card info-card h-100">
+              <div class="card-body">
+                <span class="card-icon">01</span>
+                <h3>Escolha da área</h3>
+                <p>Observe luminosidade, drenagem e histórico do terreno antes do plantio.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card info-card h-100">
+              <div class="card-body">
+                <span class="card-icon">02</span>
+                <h3>Preparo do solo</h3>
+                <p>Correção de acidez e adubação equilibrada melhoram o desenvolvimento.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card info-card h-100">
+              <div class="card-body">
+                <span class="card-icon">03</span>
+                <h3>Acompanhamento</h3>
+                <p>Monitorar pragas, irrigação e crescimento evita perdas durante o ciclo.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="plantio">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Plantio</p>
+          <h2>Base para uma lavoura produtiva</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box h-100">
+              <span class="feature-icon nature-icon"><i class="bi bi-cloud-sun"></i></span>
+              <h3>Clima</h3>
+              <p>
+                Tropical ou subtropical. O milho é uma planta de ciclo curto que ama o calor.
+                Ele se adapta melhor a regiões onde as estações são bem definidas ou o calor é
+                constante, o que permite o desenvolvimento rápido da planta.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box h-100">
+              <span class="feature-icon warm-icon"><i class="bi bi-thermometer-sun"></i></span>
+              <h3>Temperatura</h3>
+              <p>
+                20°C a 30°C é a zona de conforto do milho. Temperaturas abaixo de 15°C
+                travam o crescimento, enquanto o calor excessivo durante a polinização
+                pode resultar em espigas falhadas.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box h-100">
+              <span class="feature-icon soil-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M10 33h28" />
+                  <path d="M12 39h24" />
+                  <path d="M16 27h16" />
+                  <path d="M24 27V15" />
+                  <path d="M24 18c-5 0-8-3-9-7 5 0 8 3 9 7Z" />
+                  <path d="M24 20c5 0 8-3 9-7-5 0-8 3-9 7Z" />
+                </svg>
+              </span>
+              <h3>Solo</h3>
+              <p>
+                Fértil e bem drenado. O milho exige nutrientes, especialmente nitrogênio.
+                O solo ideal deve ser rico em matéria orgânica e não acumular poças,
+                porque as raízes precisam respirar.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box h-100">
+              <span class="feature-icon sun-icon"><i class="bi bi-brightness-high"></i></span>
+              <h3>Luminosidade</h3>
+              <p>
+                Alta incidência. O milho transforma luz em energia e precisa de sol pleno
+                para realizar fotossíntese de forma eficiente. Muita sombra reduz a formação
+                das espigas e dos grãos.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section calendar-section" id="calendario">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Calendário</p>
+          <h2>Safra, safrinha e períodos de manejo</h2>
+        </div>
+
+        <div class="row g-3 mb-4">
+          <div class="col-md-6">
+            <div class="timeline-box h-100">
+              <span class="feature-icon sun-icon"><i class="bi bi-calendar2-week"></i></span>
+              <strong>Safra</strong>
+              <p>
+                É o ciclo principal e tradicional. Ocorre entre setembro e dezembro,
+                aproveitando o início das chuvas e o calor intenso do verão. Como as
+                condições climáticas são mais favoráveis, costuma ter alta produtividade.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="timeline-box h-100">
+              <span class="feature-icon nature-icon"><i class="bi bi-cloud-haze2"></i></span>
+              <strong>Safrinha</strong>
+              <p>
+                Plantada logo após a colheita da soja, geralmente entre janeiro e março.
+                Apesar do nome, hoje representa grande parte da produção brasileira e exige
+                rapidez no plantio para reduzir riscos de seca ou geadas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-responsive table-wrap">
+          <table class="table mb-0 align-middle">
+            <thead>
+              <tr>
+                <th>Etapa</th>
+                <th>Período</th>
+                <th>Cuidados</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Preparo</td>
+                <td>Antes do plantio</td>
+                <td>Análise do solo e correção nutricional.</td>
+              </tr>
+              <tr>
+                <td>Plantio</td>
+                <td>Início das chuvas</td>
+                <td>Profundidade, espaçamento e sementes de qualidade.</td>
+              </tr>
+              <tr>
+                <td>Desenvolvimento</td>
+                <td>30 a 80 dias</td>
+                <td>Irrigação, controle de plantas daninhas e pragas.</td>
+              </tr>
+              <tr>
+                <td>Colheita</td>
+                <td>Maturação dos grãos</td>
+                <td>Avaliar umidade e ponto ideal de colheita.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section irrigation-section" id="irrigacao">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Irrigação</p>
+          <h2>Água no momento certo</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <article class="feature-box h-100">
+              <span class="feature-icon water-icon"><i class="bi bi-droplet-half"></i></span>
+              <h3>Irrigação por Gotejamento</h3>
+              <p>
+                É o sistema mais eficiente que existe. Por mangueiras com pequenos furos,
+                a água é entregue gota a gota diretamente na base da planta, próxima às
+                raízes. Isso evita desperdício por evaporação e reduz riscos de doenças.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="feature-box h-100">
+              <span class="feature-icon water-icon"><i class="bi bi-gear-wide-connected"></i></span>
+              <h3>Manejo Hídrico Controlado</h3>
+              <p>
+                Não é apenas molhar a planta, mas fornecer a quantidade exata de água no
+                momento certo. Sensores no solo e monitoramento do clima indicam fases
+                críticas e evitam tanto falta de água quanto encharcamento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section technology-section" id="tecnologia">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Tecnologia</p>
+          <h2>Técnicas modernas de cultivo</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box tech-box h-100">
+              <span class="feature-icon tech-icon"><i class="bi bi-geo-alt"></i></span>
+              <h3>Agricultura de Precisão</h3>
+              <p>
+                Utiliza mapas e GPS para aplicar fertilizantes e sementes na dose exata
+                em cada parte da área, evitando desperdícios e aumentando a produtividade.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box tech-box h-100">
+              <span class="feature-icon tech-icon"><i class="bi bi-broadcast-pin"></i></span>
+              <h3>Sensores de Solo</h3>
+              <p>
+                Dispositivos instalados na terra medem umidade, temperatura e nutrientes
+                em tempo real, ajudando o produtor a irrigar e adubar com mais precisão.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box tech-box h-100">
+              <span class="feature-icon tech-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M18 24h12M24 18v12M18 24l-8-8M30 24l8-8M18 24l-8 8M30 24l8 8" />
+                  <rect x="19" y="19" width="10" height="10" rx="2" />
+                  <circle cx="8" cy="14" r="5" />
+                  <circle cx="40" cy="14" r="5" />
+                  <circle cx="8" cy="34" r="5" />
+                  <circle cx="40" cy="34" r="5" />
+                </svg>
+              </span>
+              <h3>Uso de Drones</h3>
+              <p>
+                Drones sobrevoam a plantação para identificar falhas no plantio, focos de
+                pragas, doenças e estresse hídrico antes que os problemas avancem.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-box tech-box h-100">
+              <span class="feature-icon tech-icon"><i class="bi bi-radar"></i></span>
+              <h3>Monitoramento Climático</h3>
+              <p>
+                Estações meteorológicas conectadas e dados de satélite ajudam a prever
+                chuvas, geadas e ondas de calor, reduzindo riscos no manejo da lavoura.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+      <div>
+        <strong>Milho em Foco</strong>
+        <p>Modelo educativo sobre plantio, calendário agrícola, irrigação e tecnologia.</p>
+      </div>
+      <a class="footer-link" href="#home">Voltar ao topo</a>
+    </div>
+  </footer>
+</body>
+</html>
