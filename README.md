@@ -1,60 +1,94 @@
-# Milho em Foco
+# Agricultural Culture 🌱
 
-Site educativo sobre o cultivo do milho, criado como trabalho acadêmico para apresentar informações sobre plantio, calendário agrícola, irrigação e tecnologias modernas aplicadas à lavoura.
+Sistema web desenvolvido com HTML, CSS e JavaScript voltado para apresentação de informações agrícolas em uma interface moderna e responsiva.
 
-## Sobre o projeto
+---
 
-O projeto é uma página web estática com visual responsivo, desenvolvida com HTML, CSS, JavaScript e Bootstrap. O layout usa uma proposta editorial com banner em tela dividida, cards informativos, tabela de manejo e seções organizadas por tema.
+## 📌 Sobre o projeto
 
-## Seções do site
+O Agricultural Culture é um projeto acadêmico desenvolvido com o objetivo de praticar conceitos de desenvolvimento web front-end, responsividade e organização de interfaces.
 
-- Home com banner hero e chamada principal
-- Introdução sobre o milho e sua importância
-- Pontos essenciais para o cultivo
-- Plantio: clima, temperatura, solo e luminosidade
-- Calendário: safra, safrinha e tabela de etapas
-- Irrigação: gotejamento e manejo hídrico controlado
-- Tecnologia: agricultura de precisão, sensores, drones e monitoramento climático
+O sistema apresenta uma navegação intuitiva, design responsivo e estrutura moderna utilizando Bootstrap.
 
-## Tecnologias utilizadas
+---
+
+## 🚀 Funcionalidades
+
+- Interface responsiva
+- Navegação dinâmica
+- Layout moderno
+- Compatibilidade mobile
+- Estrutura organizada de páginas
+
+---
+
+## 🛠 Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap 5
-- Bootstrap Icons
-- Google Fonts
+- Bootstrap
+- Git
+- GitHub
+- Vercel
 
-## Estrutura de pastas
+---
 
-```text
-.
-+-- index.html
-+-- README.md
-+-- css/
-|   +-- styles.css
-+-- js/
-|   +-- script.js
-+-- img/
-    +-- banner_hero.jpg
-    +-- banner_hero2.jpg
+## 🌐 Deploy
+
+Acesse o projeto online:
+
+https://agricultural-culture.vercel.app
+
+---
+
+## 📷 Screenshots
+
+### Página inicial
+
+![Página inicial](img/home.png)
+
+### Versão mobile
+
+![Versão mobile](img/mobile.png)
+
+---
+
+
+## 📂 Estrutura do projeto
+
+```bash
+css/
+ └── style.css
+
+img/
+ └── banner_hero.jpg
+ └──home.png
+ └──mobile.png
+
+js/
+ └── scripts.js
+
+index.html
+README.md
 ```
 
-## Como executar
+## 📖 Aprendizados
 
-Abra o arquivo `index.html` diretamente no navegador.
+Durante o desenvolvimento deste projeto foram praticados:
 
-> Observação: o projeto utiliza Bootstrap, Bootstrap Icons e Google Fonts por CDN. Para carregar esses recursos externos, é necessário estar conectado à internet.
+- Estruturação semântica com HTML
+- Responsividade com CSS e Bootstrap
+- Organização de layout
+- Manipulação visual da interface
+- Controle de versão com Git/GitHub
+- Publicação de aplicações com Vercel
 
-## Funcionalidades
+---
 
-- Layout responsivo para desktop, tablet e celular
-- Navbar com menu recolhível em telas menores
-- Destaque automático do item ativo no menu
-- Cards com ícones temáticos
-- Tabela responsiva para consulta do calendário agrícola
-- Banner hero com imagem local da pasta `img`
+## 👨‍💻 Autor
 
-## Autor
+Rafael Santos
 
-Projeto desenvolvido para fins educacionais.
+GitHub:
+https://github.com/Raffaellsantos
